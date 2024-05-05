@@ -1,5 +1,5 @@
 import { Box, useMediaQuery, useTheme } from "@mui/material";
-import React from "react";
+// import React from "react";
 import TypingAnim from "../components/typer/TypingAnim";
 import Footer from "../components/footer/Footer";
 
@@ -25,7 +25,7 @@ const Home = () => {
           sx={{
             width: "100%",
             display: "flex",
-            flexDirection: { md: "row"},
+            flexDirection: { md: "row" },
             gap: 5,
             my: 10,
           }}
@@ -35,11 +35,16 @@ const Home = () => {
             alt="Nietzche"
             style={{ width: "200px", margin: "auto", marginRight: 0 }}
           />
-          <span style={{
-            fontSize: "100px",
-            minHeight: "100px",
-            display: "inline-flex",
-            alignItems: "center" }}>+</span>
+          <span
+            style={{
+              fontSize: "100px",
+              minHeight: "100px",
+              display: "inline-flex",
+              alignItems: "center",
+            }}
+          >
+            +
+          </span>
           <img
             className="rotate"
             src="openai.png"
@@ -48,11 +53,16 @@ const Home = () => {
           />
         </Box>
         <Box>
-        <span style={{
-            fontSize: "100px",
-            minHeight: "100px",
-            display: "inline-flex",
-            alignItems: "center" }}>=</span>
+          <span
+            style={{
+              fontSize: "100px",
+              minHeight: "100px",
+              display: "inline-flex",
+              alignItems: "center",
+            }}
+          >
+            =
+          </span>
         </Box>
         <Box sx={{ display: "flex", mx: "auto" }}>
           <img
@@ -71,7 +81,14 @@ const Home = () => {
           />
         </Box>
         <Box sx={{ fontSize: "30px", mx: "200px" }}>
-          <p>Welcome to NietzscheGPT, where philosophy meets artificial intelligence. Powered by OpenAI, NietzscheGPT offers users to engage with the profound ideas of Friedrich Nietzsche. Whether you're a seasoned philosopher or just beginning your journey into Nietzschean thought, NietzscheGPT is here to stimulate your intellect and spark meaningful discourse.</p>
+          <p>
+            Welcome to NietzscheGPT, where philosophy meets artificial
+            intelligence. Powered by OpenAI, NietzscheGPT offers users to engage
+            with the profound ideas of Friedrich Nietzsche. Whether you're a
+            seasoned philosopher or just beginning your journey into Nietzschean
+            thought, NietzscheGPT is here to stimulate your intellect and spark
+            meaningful discourse.
+          </p>
         </Box>
       </Box>
       <Footer />
